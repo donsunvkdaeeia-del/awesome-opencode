@@ -41,13 +41,19 @@
 |[opencode-smart-title](https://github.com/Tarquinen/opencode-smart-title)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-smart-title)|Auto-generates meaningful session titles using AI.|
 |[opencode-background](https://github.com/zenobi-us/opencode-background)|![GitHub Repo stars](https://badgen.net/github/stars/zenobi-us/opencode-background)|Background process management plugin for opencode.|
 |[opencode-dynamic-context-pruning](https://github.com/Tarquinen/opencode-dynamic-context-pruning)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-dynamic-context-pruning)|Plugin that optimizes token usage by pruning obsolete tool outputs from conversation context.|
-
+|[opencode-tokenscope](https://github.com/ramtinJ95/opencode-tokenscope)|![GitHub Repo stars](https://badgen.net/github/stars/ramtinJ95/opencode-tokenscope)|Tokenscope, Comprehensive token usage analysis and cost tracking for opencode sessions.|
+|[opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth)|![GitHub Repo stars](https://badgen.net/github/stars/numman-ali/opencode-openai-codex-auth)|This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication, allowing you to use your ChatGPT subscription instead of OpenAI Platform API credits.|
+|[OpenHax codex](https://github.com/open-hax/codex)|![GitHub Repo stars](https://badgen.net/github/stars/open-hax/codex)|OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method|
+|[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management plugin for OpenCode with multi-agent collaboration support|
+|[Opencode-Roadmap](https://github.com/IgorWarzocha/Opencode-Roadmap)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Roadmap)|Strategic roadmap planning and multi-agent coordination plugin. Provides project-wide planning capabilities with immutable history and auto-archiving.|
+|[opencode-gemini-auth](https://github.com/jenslys/opencode-gemini-auth)|![GitHub Repo stars](https://badgen.net/github/stars/jenslys/opencode-gemini-auth)|Authenticate the Opencode CLI with your Google account so you can use your existing Gemini plan and its included quota instead of API billing|
 ➡️ **[Suggest a new Plugin in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins)**
 
 ## Themes
 
-*No themes have been suggested yet.*
-
+|Name|Stars|Description|
+|---|---|---|
+|[opencode-ai-poimandres-theme](https://github.com/ajaxdude/opencode-ai-poimandres-theme)|![GitHub Repo stars](https://badgen.net/github/stars/ajaxdude/opencode-ai-poimandres-theme)|Poimandres theme for opencode.|
 ➡️ **[Suggest a new Theme in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/themes)**
 
 ## Agents
@@ -79,7 +85,8 @@
 |[Handy](https://github.com/cjpais/Handy)|![GitHub Repo stars](https://badgen.net/github/stars/cjpais/Handy)|Easy Open Source Speech to Text|
 |[opencode-web](https://github.com/kcrommett/opencode-web)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/opencode-web)|Web interface for opencode - browser-based access to AI coding agent.|
 |[openspec](https://github.com/Fission-AI/OpenSpec)|![GitHub Repo stars](https://badgen.net/github/stars/Fission-AI/OpenSpec)|Spec-driven development with opencode - structured specification management.|
-
+|[oc-manager](https://github.com/kcrommett/oc-manager)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/oc-manager)|Terminal UI for inspecting, filtering, and pruning OpenCode metadata stored on disk. The app is written in TypeScript, runs on Bun, and renders with @opentui/react.|
+|[beads](https://github.com/steveyegge/beads)|![GitHub Repo stars](https://badgen.net/github/stars/steveyegge/beads)|Steve Yegge's project/task management system for agents (with beads_viewer UI)|
 ➡️ **[Suggest a new Project in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/projects)**
 
 ## Resources
