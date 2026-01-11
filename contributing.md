@@ -1,10 +1,8 @@
 # Contribution Guidelines
 
-Thank you for your interest in contributing to `awesome-opencode`! Your contributions help make this list a great resource for the community.
+Thank you for contributing to `awesome-opencode`! Add your entries via YAML files—no need to edit README.md directly.
 
 ## How to Add an Entry
-
-**Submit a Pull Request** adding your entry directly to the README.
 
 ### Step 1: Fork & Clone
 
@@ -13,95 +11,50 @@ git clone https://github.com/YOUR-USERNAME/awesome-opencode.git
 cd awesome-opencode
 ```
 
-### Step 2: Add Your Entry
+### Step 2: Create YAML File
 
-Add your entry to the appropriate section in `README.md` in **alphabetical order**.
+Create a YAML file in the appropriate category folder under `data/`:
+- `data/plugins/` - OpenCode plugins and extensions
+- `data/themes/` - Color schemes and visual themes
+- `data/agents/` - AI agents and subagents
+- `data/projects/` - Tools, GUIs, integrations, and utilities
+- `data/resources/` - Guides, templates, and configurations
 
-Use this format:
+**Filename:** kebab-case (e.g., `my-plugin.yaml`)
 
-```html
-<details>
-  <summary><b>Your Project Name</b> <img src="https://badgen.net/github/stars/owner/repo" height="14"/> - <i>Short description</i></summary>
-  <blockquote>
-    Full description here.
-    <br><br>
-    <a href="https://github.com/owner/repo">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
+### Step 3: Add YAML Content
+
+```yaml
+name: Your Plugin Name
+repo: https://github.com/owner/repo-name
+description: Short description (max 100 chars, shown in summary)
+full_description: Longer description explaining what it does.
 ```
 
-**Sections:**
-- **Plugins** - OpenCode plugins and extensions
-- **Themes** - Color schemes and visual themes
-- **Agents** - AI agents and subagents
-- **Projects** - Tools, GUIs, integrations, and utilities
-- **Resources** - Guides, templates, and configurations
-
-### Step 3: Submit PR
+### Step 4: Submit PR
 
 ```bash
-git checkout -b add-my-project
-git add README.md
-git commit -m "docs: add my-project to plugins"
-git push origin add-my-project
+git checkout -b add-my-plugin
+git add data/plugins/my-plugin.yaml
+git commit -m "docs: add my-plugin to plugins"
+git push origin add-my-plugin
 ```
 
-Then open a Pull Request on GitHub.
+Open a Pull Request on GitHub.
 
 ## Entry Requirements
 
-Before submitting, ensure your entry:
+- [ ] **Relevant** - Directly related to OpenCode
+- [ ] **Public** - Repository is publicly accessible
+- [ ] **Maintained** - Active commits within the last 6 months
+- [ ] **Unique** - Not a duplicate of existing entry
+- [ ] **Complete** - All required fields included
 
-- [ ] **Is relevant** - Directly related to OpenCode
-- [ ] **Is public** - Repository is publicly accessible
-- [ ] **Is maintained** - Active commits within the last 6 months
-- [ ] **Is not a duplicate** - Check the list first
-- [ ] **Is alphabetically ordered** - Placed correctly in the section
-- [ ] **Uses correct format** - Collapsible details with star badge
+## What Happens After PR?
 
-## Quick Copy Templates
+1. **Validation runs** - Automated checks verify YAML format
+2. **Maintainer review** - Content and relevance verified
+3. **Merge** - Once approved
+4. **README auto-generates** - List updates automatically
 
-### Plugin
-```html
-<details>
-  <summary><b>opencode-example</b> <img src="https://badgen.net/github/stars/username/opencode-example" height="14"/> - <i>Brief description of what it does</i></summary>
-  <blockquote>
-    Longer description with more details about the plugin.
-    <br><br>
-    <a href="https://github.com/username/opencode-example">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-```
-
-### Project
-```html
-<details>
-  <summary><b>My Project</b> <img src="https://badgen.net/github/stars/username/my-project" height="14"/> - <i>Brief description</i></summary>
-  <blockquote>
-    Longer description with more details.
-    <br><br>
-    <a href="https://github.com/username/my-project">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-```
-
-### Theme
-```html
-<details>
-  <summary><b>My Theme</b> <img src="https://badgen.net/github/stars/username/opencode-my-theme" height="14"/> - <i>Color scheme description</i></summary>
-  <blockquote>
-    Theme description and color details.
-    <br><br>
-    <a href="https://github.com/username/opencode-my-theme">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-```
-
-## What Happens Next?
-
-A maintainer will review your PR and:
-- Verify the project meets our guidelines
-- Check for security concerns
-- Merge if approved, or request changes
-
-Thank you for contributing to the OpenCode community!
+No need to edit README.md—it regenerates from YAML files.

@@ -1,38 +1,17 @@
-## Submission Type
+## New Entry Submission
 
-- [ ] Plugin
-- [ ] Project
-- [ ] Theme
-- [ ] Agent
-- [ ] Resource
+**Category:** (plugins / themes / agents / projects / resources)
 
-## Details
+**File added:** `data/{category}/your-entry.yaml`
 
-**Name:** 
-**Repository:** 
-**Description:** 
+### Checklist
 
-## Checklist
+- [ ] YAML file is in the correct category folder
+- [ ] Filename is kebab-case (e.g., `my-plugin.yaml`)
+- [ ] All required fields included (name, repo, description, full_description)
+- [ ] Repository is public and maintained
+- [ ] Entry is relevant to OpenCode
 
-- [ ] Relevant to OpenCode
-- [ ] Repository is public and accessible
-- [ ] Actively maintained
-- [ ] Not a duplicate
-- [ ] Entry added in alphabetical order
+### Description
 
-## Entry Format
-
-Use this format in the appropriate README section:
-
-```html
-<details>
-  <summary><b>Name</b> <img src="https://badgen.net/github/stars/owner/repo" height="14"/> - <i>Short description</i></summary>
-  <blockquote>
-    Full description.
-    <br><br>
-    <a href="https://github.com/owner/repo">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-```
-
-See [contributing.md](contributing.md) for full instructions.
+Brief description of what this entry does and why it should be included.
