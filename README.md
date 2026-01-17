@@ -251,6 +251,15 @@
 </details>
 
 <details>
+  <summary><b>Oh My Opencode Slim</b> <img src="https://badgen.net/github/stars/alvinunreal/oh-my-opencode-slim" height="14"/> - <i>Lightweight agent orchestration with reduced token usage</i></summary>
+  <blockquote>
+    Slimmed-down fork of oh-my-opencode focused on core agent orchestration. Features specialized sub-agents (Explorer, Oracle, Librarian, Designer, etc.), background task management, LSP/AST tools, tmux integration for live agent visibility, and MCP servers. Optimized to consume significantly fewer tokens.
+    <br><br>
+    <a href="https://github.com/alvinunreal/oh-my-opencode-slim">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenAI Codex Auth</b> <img src="https://badgen.net/github/stars/numman-ali/opencode-openai-codex-auth" height="14"/> - <i>ChatGPT Plus/Pro OAuth</i></summary>
   <blockquote>
     This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.
