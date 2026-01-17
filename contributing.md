@@ -1,33 +1,60 @@
 # Contribution Guidelines
 
-Thank you for your interest in contributing to `awesome-opencode`! Your suggestions are essential for making this list a great resource for the community. We're excited to see what you've found.
+Thank you for contributing to `awesome-opencode`! Add your entries via YAML files—no need to edit README.md directly.
 
-To keep things organized and allow for community input, **we manage all new additions through GitHub Discussions.**
+## How to Add an Entry
 
-## How to Suggest an Addition
+### Step 1: Fork & Clone
 
-Instead of opening a Pull Request, please follow these simple steps:
+```bash
+git clone https://github.com/YOUR-USERNAME/awesome-opencode.git
+cd awesome-opencode
+```
 
-1.  **Go to the [Discussions Tab](https://github.com/awesome-opencode/awesome-opencode/discussions)**.
-2.  **Choose the correct category** for your suggestion (e.g., `Plugins`, `Themes`, `Agents`, etc.).
-3.  **Start a new Discussion** with a clear title.
-4.  In the body, please include:
-    *   A link to the resource.
-    *   A brief, one-sentence description of what it is and why it's awesome.
+### Step 2: Create YAML File
 
-Here's the format to follow:
-`[Project Name](link) - A short description.`
+Create a YAML file in the appropriate category folder under `data/`:
+- `data/plugins/` - OpenCode plugins and extensions
+- `data/themes/` - Color schemes and visual themes
+- `data/agents/` - AI agents and subagents
+- `data/projects/` - Tools, GUIs, integrations, and utilities
+- `data/resources/` - Guides, templates, and configurations
 
-## What Happens Next?
+**Filename:** kebab-case (e.g., `my-plugin.yaml`)
 
-Once you've submitted your suggestion, a maintainer will review it. This allows us to ensure everything on the list is high-quality, relevant, and well-documented. If your suggestion is approved, a maintainer will add it to the list.
+### Step 3: Add YAML Content
 
-## Guideline for a Great Suggestion
+```yaml
+name: Your Plugin Name
+repo: https://github.com/owner/repo-name
+tagline: Short punchy summary (max 120 chars, shown in collapsed view)
+description: Longer description explaining what it does and why it's useful.
+```
 
-To ensure your suggestion gets added quickly, please make sure it meets the following criteria:
+### Step 4: Submit PR
 
--   **It's relevant:** The resource is directly related to opencode.
--   **It's awesome:** It's a useful, high-quality, and well-maintained project.
--   **It's not a duplicate:** Please check the list to make sure your suggestion isn't already there.
+```bash
+git checkout -b add-my-plugin
+git add data/plugins/my-plugin.yaml
+git commit -m "docs: add my-plugin to plugins"
+git push origin add-my-plugin
+```
 
-That's it! We look forward to seeing your suggestions. Thank you for helping build this community resource
+Open a Pull Request on GitHub.
+
+## Entry Requirements
+
+- [ ] **Relevant** - Directly related to OpenCode
+- [ ] **Public** - Repository is publicly accessible
+- [ ] **Maintained** - Active commits within the last 6 months
+- [ ] **Unique** - Not a duplicate of existing entry
+- [ ] **Complete** - All required fields included
+
+## What Happens After PR?
+
+1. **Validation runs** - Automated checks verify YAML format
+2. **Maintainer review** - Content and relevance verified
+3. **Merge** - Once approved
+4. **README auto-generates** - List updates automatically
+
+No need to edit README.md—it regenerates from YAML files.
