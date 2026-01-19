@@ -791,6 +791,15 @@
 </details>
 
 <details>
+  <summary><b>Opencode Session Manager</b> <img src="https://badgen.net/github/stars/GNITOAHC/opencode-session" height="14"/> - <i>Session viewer & manager</i></summary>
+  <blockquote>
+    View & Manage sessions for opencode, also detect orphan sessions for deletion
+    <br><br>
+    <a href="https://github.com/GNITOAHC/opencode-session">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Sessions</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-sessions" height="14"/> - <i>Session tracker</i></summary>
   <blockquote>
     Session management tool for opencode to track and organise coding sessions.
